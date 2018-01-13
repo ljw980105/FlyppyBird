@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0467F74F20093D7F00057DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467F74E20093D7F00057DB0 /* AppDelegate.swift */; };
-		0467F75120093D7F00057DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467F75020093D7F00057DB0 /* ViewController.swift */; };
+		0467F75120093D7F00057DB0 /* FlyppyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467F75020093D7F00057DB0 /* FlyppyViewController.swift */; };
 		0467F75420093D7F00057DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467F75220093D7F00057DB0 /* Main.storyboard */; };
 		0467F75620093D7F00057DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0467F75520093D7F00057DB0 /* Assets.xcassets */; };
 		0467F75920093D7F00057DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467F75720093D7F00057DB0 /* LaunchScreen.storyboard */; };
+		0467F76120093E6200057DB0 /* FlyppyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467F76020093E6200057DB0 /* FlyppyBehavior.swift */; };
+		0467F7632009438F00057DB0 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467F7622009438F00057DB0 /* BirdView.swift */; };
+		0494578F20096F47007A0790 /* TopObstacleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494578E20096F47007A0790 /* TopObstacleView.swift */; };
+		04945791200987B5007A0790 /* BottomObstacleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04945790200987B5007A0790 /* BottomObstacleView.swift */; };
+		049457932009A2A3007A0790 /* ObstacleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049457922009A2A3007A0790 /* ObstacleBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0467F74B20093D7F00057DB0 /* Flyppy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flyppy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0467F74E20093D7F00057DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0467F75020093D7F00057DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0467F75020093D7F00057DB0 /* FlyppyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyppyViewController.swift; sourceTree = "<group>"; };
 		0467F75320093D7F00057DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0467F75520093D7F00057DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0467F75820093D7F00057DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0467F75A20093D7F00057DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0467F76020093E6200057DB0 /* FlyppyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyppyBehavior.swift; sourceTree = "<group>"; };
+		0467F7622009438F00057DB0 /* BirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		0494578E20096F47007A0790 /* TopObstacleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopObstacleView.swift; sourceTree = "<group>"; };
+		04945790200987B5007A0790 /* BottomObstacleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomObstacleView.swift; sourceTree = "<group>"; };
+		049457922009A2A3007A0790 /* ObstacleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				0467F74E20093D7F00057DB0 /* AppDelegate.swift */,
-				0467F75020093D7F00057DB0 /* ViewController.swift */,
+				0467F75020093D7F00057DB0 /* FlyppyViewController.swift */,
+				049457922009A2A3007A0790 /* ObstacleBehavior.swift */,
+				0467F76020093E6200057DB0 /* FlyppyBehavior.swift */,
+				0467F7622009438F00057DB0 /* BirdView.swift */,
 				0467F75220093D7F00057DB0 /* Main.storyboard */,
 				0467F75520093D7F00057DB0 /* Assets.xcassets */,
 				0467F75720093D7F00057DB0 /* LaunchScreen.storyboard */,
 				0467F75A20093D7F00057DB0 /* Info.plist */,
+				0494578E20096F47007A0790 /* TopObstacleView.swift */,
+				04945790200987B5007A0790 /* BottomObstacleView.swift */,
 			);
 			path = "Flyppy Bird";
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0467F75120093D7F00057DB0 /* ViewController.swift in Sources */,
+				0467F75120093D7F00057DB0 /* FlyppyViewController.swift in Sources */,
+				0467F7632009438F00057DB0 /* BirdView.swift in Sources */,
+				0494578F20096F47007A0790 /* TopObstacleView.swift in Sources */,
+				0467F76120093E6200057DB0 /* FlyppyBehavior.swift in Sources */,
+				04945791200987B5007A0790 /* BottomObstacleView.swift in Sources */,
+				049457932009A2A3007A0790 /* ObstacleBehavior.swift in Sources */,
 				0467F74F20093D7F00057DB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
